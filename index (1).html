@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Egypt Game Store – Checkout</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pg{font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:#E8EEF5;min-height:100%;background:radial-gradient(900px 500px at 8% -5%,rgba(14,165,233,.22),transparent 60%),radial-gradient(800px 500px at 100% 20%,rgba(124,58,237,.16),transparent 60%),linear-gradient(rgba(14,165,233,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(14,165,233,.05) 1px,transparent 1px),#07090D;background-size:auto,auto,44px 44px,44px 44px,auto}
+.card{background:rgba(17,22,30,.92);border:1px solid #243041;border-radius:16px;padding:24px;box-shadow:0 0 0 1px rgba(14,165,233,.04),0 12px 32px rgba(0,0,0,.35)}
+.h{margin:0 0 16px;font-size:18px;font-weight:700;color:#fff;display:flex;align-items:center;gap:10px}
+.in{height:48px;box-sizing:border-box;width:100%;background:#0B0F16;border:1px solid #2B394D;border-radius:10px;padding:0 14px;color:#fff;font:500 15px 'Plus Jakarta Sans',sans-serif}
+.lb{display:block;font-size:13px;font-weight:600;color:#9FB0C4;margin-bottom:6px}
+.row{display:flex;align-items:center;gap:14px;background:#0B0F16;border:1px solid #243041;border-radius:12px;padding:0 16px;min-height:56px;font-size:15px;font-weight:600;color:#fff}
+.ic{width:36px;height:36px;border-radius:10px;background:rgba(14,165,233,.14);display:flex;align-items:center;justify-content:center;flex:none}
+.sub{font-size:13px;font-weight:500;color:#8DA0B6}
+.rc{flex:1;border:1px solid #2B394D;border-radius:12px;background:#0B0F16;padding:14px;display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:700;color:#fff}
+.rc.on{border-color:#0EA5E9;background:rgba(14,165,233,.1)}
+.bd{display:inline-flex;align-items:center;gap:5px;height:24px;padding:0 9px;border-radius:999px;font-size:12px;font-weight:600;background:#162234;color:#7DD3FC;border:1px solid #23405C}
+.bd.am{background:#3A2A08;color:#FBBF24;border-color:#6B4B0F}
+.btn{border:0;background:#0EA5E9;color:#04121C;font:700 16px 'Plus Jakarta Sans',sans-serif;border-radius:12px;cursor:pointer}
+.tl{display:flex;justify-content:space-between;font-size:15px;color:#B6C3D3;font-weight:500}
+.tile{background:#0B0F16;border:1px solid #2B394D;border-radius:10px;padding:10px 14px;font-size:13px;font-weight:600;color:#D5DEE9}
+a{color:#38BDF8}
+</style>
+
+<style>html,body{height:100%}</style>
+</head>
+<body>
+
+<div class="pg">
+<div style="height:72px;border-bottom:1px solid #1C2736;background:rgba(7,9,13,.8);display:flex;align-items:center;justify-content:space-between;padding:0 80px">
+<div style="display:flex;align-items:center;gap:12px;font-weight:800;font-size:20px;color:#fff"><div class="ic" style="background:#0EA5E9"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#04121C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="11" rx="5"></rect><path d="M7 10v5M4.5 12.5h5M16 11h.01M18 14h.01"></path></svg></div>Egypt Game Store</div>
+<div class="sub" style="display:flex;align-items:center;gap:8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 018 0v4"></path></svg>Secure checkout</div>
+</div>
+
+<div style="max-width:1280px;margin:0 auto;padding:36px 0 64px">
+<div style="display:flex;align-items:center;gap:16px;max-width:760px;margin:0 auto 36px">
+<div style="display:flex;align-items:center;gap:10px;font-weight:600;color:#7DD3FC"><span style="width:32px;height:32px;border-radius:50%;background:#0EA5E9;color:#04121C;display:flex;align-items:center;justify-content:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#04121C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg></span>Details</div>
+<div style="flex:1;height:2px;background:#0EA5E9"></div>
+<div style="display:flex;align-items:center;gap:10px;font-weight:700;color:#fff"><span style="width:32px;height:32px;border-radius:50%;border:2px solid #0EA5E9;background:rgba(14,165,233,.18);color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;box-shadow:0 0 18px rgba(14,165,233,.5)">2</span>Payment</div>
+<div style="flex:1;height:2px;background:#2B394D"></div>
+<div style="display:flex;align-items:center;gap:10px;font-weight:600;color:#8DA0B6"><span style="width:32px;height:32px;border-radius:50%;border:2px solid #2B394D;display:flex;align-items:center;justify-content:center;font-size:14px">3</span>Confirm</div>
+</div>
+
+<div style="display:grid;grid-template-columns:1fr 440px;gap:32px;align-items:start">
+<div style="display:flex;flex-direction:column;gap:20px">
+
+<div class="card"><h2 class="h">Contact details</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<div><label class="lb" for="em">Email</label><input id="em" class="in" type="email" placeholder="name@example.com"></div>
+<div><label class="lb" for="ph">Phone</label><input id="ph" class="in" type="tel" placeholder="01X XXXX XXXX"></div>
+</div></div>
+
+<div class="card"><h2 class="h">Delivery</h2>
+<div style="display:flex;flex-direction:column;gap:18px">
+<div><div style="display:flex;align-items:center;gap:10px;font-weight:600;margin-bottom:12px;font-size:15px"><div class="ic" style="width:28px;height:28px;border-radius:8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="#0EA5E9" stroke="#0EA5E9" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7z"></path></svg></div>Digital codes (2) <span class="sub">· Choose how to receive them</span></div><div style="display:flex;gap:12px"><label class="rc on"><span style="display:flex;justify-content:space-between;align-items:center">Online<input type="radio" name="d" checked="" style="accent-color:#0EA5E9;width:18px;height:18px;margin:0"></span><span class="sub">Instant delivery of codes by email</span></label><label class="rc"><span style="display:flex;justify-content:space-between;align-items:center">Delivery<input type="radio" name="d" style="accent-color:#0EA5E9;width:18px;height:18px;margin:0"></span><span class="sub">Two-day shipping</span></label></div></div>
+<div><div style="font-weight:600;margin-bottom:12px;font-size:15px">Hardware (1) <span class="sub">· Choose shipping method</span></div>
+<div style="display:flex;gap:12px">
+<label class="rc on"><span style="display:flex;justify-content:space-between;align-items:center">Two-day shipping<input type="radio" name="s" checked="" style="accent-color:#0EA5E9;width:18px;height:18px;margin:0"></span><span class="sub">Arrives in 2 days</span></label>
+
+<label class="rc"><span style="display:flex;justify-content:space-between;align-items:center">Store pickup<input type="radio" name="s" style="accent-color:#0EA5E9;width:18px;height:18px;margin:0"></span><span class="sub">Collect from our store</span></label>
+</div></div></div></div>
+
+<div class="card"><h2 class="h"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-12a7 7 0 10-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>Shipping address</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<div><label class="lb" for="fn">Full name</label><input id="fn" class="in" type="text" placeholder="Full name"></div>
+<div><label class="lb" for="gv">Governorate</label><input id="gv" class="in" type="text" placeholder="e.g. Cairo"></div>
+<div><label class="lb" for="ct">City / Area</label><input id="ct" class="in" type="text" placeholder="City / Area"></div>
+<div><label class="lb" for="bl">Building / Apartment</label><input id="bl" class="in" type="text" placeholder="Building no., floor, apartment"></div>
+<div style="grid-column:span 2"><label class="lb" for="st">Street address</label><input id="st" class="in" type="text" placeholder="Street name and nearby landmark"></div>
+<div style="grid-column:span 2"><label class="lb" for="nt">Delivery notes (optional)</label><input id="nt" class="in" type="text" placeholder="Anything the courier should know"></div>
+</div></div>
+
+<div class="card"><h2 class="h">Choose payment method</h2>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="border:1px solid #0EA5E9;background:rgba(14,165,233,.08);border-radius:12px;padding:16px">
+<div style="display:flex;align-items:center;gap:14px;font-weight:600"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 012-2h13v4"></path><rect x="3" y="7" width="18" height="13" rx="2"></rect><path d="M16 13.5h.01"></path></svg></div><span style="flex:1">Wallet balance</span><span class="bd">Balance: 350 EGP</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9FB0C4" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 15l6-6 6 6"></path></svg></div>
+<div class="sub" style="margin:12px 0 0 50px">Your wallet covers part of the order. The rest is paid with another method.</div></div>
+<div class="row"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="3"></rect><path d="M2 10h20M6 15h4"></path></svg></div><span style="flex:1">Cards: Visa / Mastercard / Prepaid card</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9FB0C4" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></div>
+<div class="row"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2.5"></rect><path d="M11 18h2"></path></svg></div><span style="flex:1">Mobile and bank wallets (including Vodafone Cash)</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9FB0C4" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></div>
+<div class="row"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"></path><path d="M9 8h6M9 12h6"></path></svg></div><span style="flex:1">Fawry</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9FB0C4" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></div>
+<div class="row"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9l1.5-5h13L20 9M4 9v11h16V9M4 9c0 2 3 2 4 0 1 2 3 2 4 0 1 2 3 2 4 0 1 2 4 2 4 0M10 20v-5h4v5"></path></svg></div><span style="flex:1">Aman / Masary kiosk</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9FB0C4" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></div>
+<div class="row"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="3"></rect><path d="M2 10h20"></path></svg></div><span style="flex:1">Credit / Debit / Meeza</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9FB0C4" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></div>
+<div style="border:1px solid #0EA5E9;background:rgba(14,165,233,.08);border-radius:12px;padding:16px"><div style="display:flex;align-items:center;gap:14px;font-weight:600"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="2.5"></circle></svg></div><span style="flex:1">Cash on delivery</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9FB0C4" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 15l6-6 6 6"></path></svg></div></div>
+<div style="border:1px solid #0EA5E9;background:rgba(14,165,233,.08);border-radius:12px;padding:16px"><div style="display:flex;align-items:center;gap:14px;font-weight:600"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg></div><span style="flex:1">Installments</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9FB0C4" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 15l6-6 6 6"></path></svg></div><div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px"><div class="tile">valU</div><div class="tile">Credit card installment</div><div class="tile">Contact</div><div class="tile">Forsa</div><div class="tile">Premium Card</div><div class="tile">Aman</div><div class="tile">Souhoola</div><div class="tile">Halan</div><div class="tile">Klivvr</div><div class="tile" style="grid-column:span 2">National Bank of Egypt</div></div></div>
+</div></div>
+
+<div class="card" style="padding:20px 24px"><div style="display:flex;align-items:center;gap:12px">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8z"></path><circle cx="7.5" cy="8.5" r="1.2"></circle></svg>
+<span style="font-weight:700;font-size:16px;color:#fff">Coupon</span>
+<input class="in" aria-label="Coupon code" value="EGY10" style="flex:1;max-width:none">
+<button class="btn" style="height:48px;padding:0 28px">Apply</button></div></div>
+</div>
+
+<div class="card" style="position:sticky;top:24px;padding:28px">
+<h2 class="h" style="font-size:20px;margin-bottom:20px">Order summary</h2>
+<div style="display:flex;flex-direction:column;gap:18px">
+<div style="display:flex;gap:14px"><div class="ic" style="width:56px;height:56px;border-radius:12px;background:#10213A"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="2"></rect><path d="M3 10h18M7 15h4"></path></svg></div>
+<div style="flex:1"><div style="display:flex;justify-content:space-between;gap:10px;font-weight:700"><span>PlayStation Store Gift Card 50 USD</span><span style="white-space:nowrap">1,750 EGP</span></div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px"><span class="bd"><svg width="12" height="12" viewBox="0 0 24 24" fill="#7DD3FC" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7z"></path></svg>Instant delivery</span><span class="bd"><svg width="16" height="11" viewBox="0 0 16 11" aria-hidden="true"><rect width="16" height="11" rx="1.5" fill="#fff"></rect><path d="M0 1.2h16M0 3.9h16M0 6.6h16M0 9.3h16" stroke="#D1344B" stroke-width="1.1"></path><rect width="7" height="6" fill="#2B4A9B"></rect></svg>US Region</span></div></div></div>
+<div style="display:flex;gap:14px"><div class="ic" style="width:56px;height:56px;border-radius:12px;background:#10213A"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 4v10l-8 4-8-4V7zM4 7l8 4 8-4M12 11v10"></path></svg></div>
+<div style="flex:1"><div style="display:flex;justify-content:space-between;gap:10px;font-weight:700"><span>Game expansion pack (DLC)</span><span style="white-space:nowrap">600 EGP</span></div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px"><span class="bd"><svg width="12" height="12" viewBox="0 0 24 24" fill="#7DD3FC" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7z"></path></svg>Instant delivery</span><span class="bd"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#7DD3FC" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"></path></svg>Global</span><span class="bd am">DLC / Add-on</span></div></div></div>
+<div style="display:flex;gap:14px"><div class="ic" style="width:56px;height:56px;border-radius:12px;background:#10213A"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="6" width="14" height="12" rx="2"></rect><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 10h3M2 14h3M19 10h3M19 14h3"></path></svg></div>
+<div style="flex:1"><div style="display:flex;justify-content:space-between;gap:10px;font-weight:700"><span>RTX 4070 Super 12GB graphics card</span><span style="white-space:nowrap">3,500 EGP</span></div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px"><span class="bd"><svg width="14" height="12" viewBox="0 0 24 24" fill="none" stroke="#7DD3FC" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M2 7h12v9H2zM14 10h4l4 3v3h-8z"></path></svg>Two-day shipping</span><span class="bd"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#7DD3FC" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-4 8-8 9-4-1-8-4-8-9V6z"></path></svg>Warranty</span></div></div></div>
+</div>
+<div style="height:1px;background:#243041;margin:22px 0"></div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div class="tl"><span>Subtotal</span><span>5,850 EGP</span></div>
+<div class="tl"><span>Coupon (EGY10)</span><span style="color:#34D399;font-weight:700">-300 EGP</span></div>
+<div class="tl"><span>Rewards earned</span><span style="color:#7DD3FC;font-weight:700">+5,550 points</span></div>
+<div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:8px;padding-top:16px;border-top:1px solid #243041"><span style="font-size:17px;font-weight:700;color:#fff">Total</span><span style="font-size:32px;font-weight:800;color:#fff">5,550 EGP</span></div>
+</div>
+<button class="btn" style="width:100%;height:56px;margin-top:20px;font-size:17px;box-shadow:0 0 24px rgba(14,165,233,.45)">Place Order</button>
+<div class="sub" style="text-align:center;margin-top:14px;line-height:1.5">By clicking Place Order, you agree to <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></div>
+<div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;font-size:13px;font-weight:600;color:#FBBF24"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 8v5M12 16h.01"></path></svg>Codes cannot be refunded after viewing</div>
+<div style="display:flex;justify-content:space-between;margin-top:22px;padding-top:18px;border-top:1px solid #243041;font-size:12px;font-weight:600;color:#9FB0C4">
+<span style="display:flex;align-items:center;gap:6px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 018 0v4"></path></svg>Secure payment</span>
+<span style="display:flex;align-items:center;gap:6px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-4 8-8 9-4-1-8-4-8-9V6zM9 12l2 2 4-4"></path></svg>Original codes</span>
+<span style="display:flex;align-items:center;gap:6px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 14v-2a8 8 0 0116 0v2M4 14h3v5H4zM17 14h3v5h-3z"></path></svg>24/7 support</span></div>
+</div>
+</div></div></div>
+
+</body>
+</html>
